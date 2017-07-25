@@ -19,7 +19,7 @@
  * For more information, see the following discussion:
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
- * @link       https://reillylowery.io
+ * @link       https://github.com/RiFi2k/wp-custom-api
  * @since      1.0.0
  *
  * @package    Wp_Custom_Api

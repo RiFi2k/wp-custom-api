@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       https://reillylowery.io
+ * @link       https://github.com/RiFi2k/wp-custom-api
  * @since      1.0.0
  *
  * @package    Wp_Custom_Api

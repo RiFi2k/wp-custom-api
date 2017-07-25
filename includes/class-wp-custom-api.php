@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       https://reillylowery.io
+ * @link       https://github.com/RiFi2k/wp-custom-api
  * @since      1.0.0
  *
  * @package    Wp_Custom_Api
