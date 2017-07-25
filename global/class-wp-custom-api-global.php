@@ -54,16 +54,22 @@ class Wp_Custom_Api_Global {
 	}
 
 	/**
-	 * Register the JavaScript for the admin area.
+	 * Filter all wp-json api calls.
 	 *
 	 * @since    1.0.0
-	 * @param    $result
+	 * @param    $access
 	 */
-	public function api_filter( $result ) {
+	public function api_filter( $access ) {
 
-		/**
-		 * Filter all api calls coming in.
-		 */
+		//$request_uri = strtok( $_SERVER["REQUEST_URI"], '?' );
+
+		//if ( $request_uri == '/wp-json/custom-api/v1/' ) {
+        //	return $access;
+    	//}
+
+    	//return new WP_Error( 'api_access_denied', __( 'REST API access is denied.', 'wp-custom-api' ), array( 'status' => rest_authorization_required_code() ) );
+
+		return $access;
 
 	}
 
