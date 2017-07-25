@@ -1,12 +1,7 @@
 <?php
 
 /**
- * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
+ * Wp Custom API bootstrap file
  *
  * @link              https://github.com/RiFi2k/wp-custom-api
  * @since             1.0.0
@@ -15,7 +10,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Custom API
  * Plugin URI:        https://github.com/RiFi2k/wp-custom-api
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Setup a custom API on your WordPress site.
  * Version:           1.0.0
  * Author:            Reilly Lowery
  * Author URI:        https://github.com/RiFi2k
