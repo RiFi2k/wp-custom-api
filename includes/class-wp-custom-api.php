@@ -150,6 +150,21 @@ class Wp_Custom_Api {
 	}
 
 	/**
+	 * Register all of the hooks related to the global functionality
+	 * of the plugin.
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 */
+	private function define_global_hooks() {
+
+		$plugin_global = new Wp_Custom_Api_Global( $this->get_plugin_name(), $this->get_version() );
+
+		$this->loader->add_filter( 'rest_authentication_errors', $plugin_global, 'api_filter' );
+
+	}
+
+	/**
 	 * Run the loader to execute all of the hooks with WordPress.
 	 *
 	 * @since    1.0.0
